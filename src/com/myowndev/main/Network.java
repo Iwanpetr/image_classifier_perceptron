@@ -35,9 +35,7 @@ public class Network {
         }
     }
     public boolean Rez() {
-        if (sum >= limit)
-            return true;
-        else return false;
+        return sum >= limit;
     }
     public void recognize() {
         this.mul_w();
